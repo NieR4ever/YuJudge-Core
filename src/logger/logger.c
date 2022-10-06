@@ -44,7 +44,6 @@ void makeLog(logType type, char *content, FILE *loggerFile) {
     outputLoggerType(type, loggerFile);
     /*获取生成日志的时间*/
     outputCurrentTime(loggerFile);
-    printf("%s\n", content);
 }
 
 /**
